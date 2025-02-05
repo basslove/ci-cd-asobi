@@ -8,7 +8,7 @@ on:
         default: 'Hello'
         type: string
 jobs:
-  build:
+  run:
     runs-on: ubuntu-latest
     steps:
     - run: echo "${{ inputs.greeting }}"
