@@ -1,8 +1,0 @@
-name: Hello # Name of the workflow
-on: push # Event that triggers the workflow
-jobs:
-  build:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - run: echo Hello, world!
